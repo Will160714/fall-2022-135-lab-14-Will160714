@@ -6,9 +6,7 @@ template <class T>
 class MyVector{
     public:
         MyVector();
-        void print();
         MyVector(int x);
-        T& copy(T& info, int cap);
         int size();
         int capacity();
         bool empty();
