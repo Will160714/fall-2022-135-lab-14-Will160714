@@ -43,8 +43,8 @@ void MyVector<T>::push_back(T x){
     if(size_of_array >= capacity_of_array){
         T* newData = new T[capacity_of_array * 2];
         size_of_array = capacity_of_array;
-        for(int x = 0; x < capacity_of_array; x++){
-            newData[x] = data[x];
+        for(int y = 0; y < capacity_of_array; y++){
+            newData[y] = data[y];
         }
         capacity_of_array = capacity_of_array * 2;
         data = newData;
